@@ -1,0 +1,29 @@
+{
+  "site": {
+    "title": "数学小站",
+    "description": "从备课到课堂，持续整理小学数学的知识、方法与讲解。",
+    "repository": "https://github.com/daiguashaoya/Primary_school_math"
+  },
+  "entries": [
+    {
+      "id": "trial-decimals",
+      "category": "preparation",
+      "title": "试课备课：小数计算与图形应用",
+      "summary": "从一张试卷出发，整理答案、逐题考点与讲解方法，串起小数简算、图形运动和生活中的数学。",
+      "grade": "五年级",
+      "updated": "2026-11-09",
+      "topics": ["小数计算", "图形与几何", "应用题"],
+      "keywords": ["试卷", "乘法分配律", "拆分因数", "凑整", "循环小数", "轴对称", "平移", "旋转", "去尾法", "进一法", "邮费", "鲜花饼"],
+      "figures": 3,
+      "sections": [
+        {"id": "quick", "title": "答案速查", "source": "备课资料/01_答案速查.md"},
+        {"id": "detail", "title": "逐题讲解", "source": "备课资料/02_逐题解析与教学方法.md"}
+      ],
+      "attachments": [
+        {"title": "试卷原图", "path": "备课资料/试课试卷.jpg", "kind": "image"},
+        {"title": "PDF 讲义", "path": "备课资料/02_逐题解析与教学方法.pdf", "kind": "pdf"},
+        {"title": "原版可打印讲义", "path": "备课资料/00_答案与讲解_可打印.html", "kind": "html"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="510" viewBox="0 0 640 510" fill="none">
+  <defs><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" stroke="#dbe5d9" stroke-width=".7"/></pattern><filter id="shadow" x="-30%" y="-30%" width="170%" height="180%"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#314d3c" flood-opacity=".09"/></filter></defs>
+  <circle cx="345" cy="264" r="205" fill="#e6ecdf"/><circle cx="551" cy="95" r="8" fill="#d3ab7e"/>
+  <g transform="rotate(7 326 267)"><rect x="112" y="57" width="442" height="403" rx="15" fill="#e4ddcb"/></g>
+  <g filter="url(#shadow)" transform="rotate(-4 316 254)"><rect x="79" y="44" width="449" height="405" rx="15" fill="#fffdf7"/><rect x="79" y="44" width="449" height="405" rx="15" fill="url(#grid)"/><path d="M120 113H482" stroke="#c8d5c6"/>
+  <rect x="109" y="74" width="47" height="23" rx="5" fill="#20594e"/><text x="132.5" y="90" text-anchor="middle" fill="#fffdf7" font-size="12" font-family="Arial,sans-serif" letter-spacing="1">NOTE</text><text x="478" y="92" text-anchor="end" fill="#6d8073" font-size="15" font-family="Arial,sans-serif">01</text>
+  <text x="116" y="166" fill="#224d42" font-size="29" font-weight="700" font-family="Arial,sans-serif">1.25 × 3.2 × 0.25</text><path d="M117 181Q290 196 463 180" stroke="#d6a576" stroke-width="5" stroke-linecap="round"/>
+  <text x="117" y="234" fill="#66796c" font-size="22" font-family="Arial,sans-serif">= 1.25 × (4 × 0.8) × 0.25</text><text x="117" y="278" fill="#66796c" font-size="22" font-family="Arial,sans-serif">= (1.25 × 0.8) × (4 × 0.25)</text>
+  <rect x="116" y="312" width="72" height="72" rx="8" fill="#20594e"/><path d="M152 312V384M116 348H188" stroke="#fffdf7" stroke-opacity=".5"/><text x="208" y="357" fill="#315c4d" font-size="29" font-family="Arial,sans-serif">1 × 1 =</text><circle cx="387" cy="348" r="35" stroke="#d8a475" stroke-width="3"/><text x="387" y="361" text-anchor="middle" fill="#20594e" font-size="39" font-weight="700" font-family="Arial,sans-serif">1</text>
+  <path d="M437 380l11 11 22-25" stroke="#20594e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g transform="rotate(17 550 332)"><rect x="538" y="192" width="14" height="224" rx="3" fill="#cd8a58"/><path d="M538 416h14l-7 22z" fill="#dcc6a1"/><path d="M542 432l3 6 3-6" fill="#344d3e"/><rect x="538" y="192" width="14" height="26" rx="3" fill="#20594e"/><path d="M542 220v190" stroke="#e9b27e" stroke-width="3"/></g>
+  <path d="M72 339l-13 7 13 7M43 346h16" stroke="#9aaf98" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
