@@ -7,9 +7,10 @@
 - 首页：[`index.html`](index.html)
 - 备课资料：[`preparation/index.html`](preparation/index.html)
 - 课堂章节：[`chapters/index.html`](chapters/index.html)
-- 当前备课：[`试课备课：小数计算与图形应用`](preparation/trial-decimals/index.html)
+- 最新备课：[`第一阶段适应性活动：五上数学1109`](preparation/phase-one-1109/index.html)
+- 试课备课：[`小数计算与图形应用`](preparation/trial-decimals/index.html)
 
-当前已收录试课试卷的答案速查、逐题解析、教学方法、三张图解，以及原卷和 PDF 讲义。课堂章节栏目已预留，将按实际教学内容更新。
+当前已收录2份备课资料：试课试卷，以及第一阶段适应性活动1109的完整29题。两份均按“答案速查→逐题讲解”组织，包含考点、解题方法、易错点和图解。第一阶段资料可在线阅读并用网页打印按钮打印，原卷PDF单独保存在`试卷/`。课堂章节将按实际教学内容更新。
 
 ## 部署到 GitHub Pages
 
@@ -64,6 +65,7 @@ Primary_school_math/
 │   ├── catalog.json            # 统一内容目录
 │   └── 章节模板.md             # 新内容起稿参考
 ├── 备课资料/                    # 现有 Markdown、原卷、PDF 和图解
+├── 试卷/                        # 保留的原始试卷
 ├── scripts/build_site.py        # 站点生成脚本
 └── docs/内容维护指南.md
 ```

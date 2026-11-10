@@ -317,8 +317,8 @@ def lesson(entry: dict) -> None:
         link = href(attachment["path"],page)
         attrs = ' download' if kind == "pdf" else ' target="_blank" rel="noopener noreferrer"'
         resources.append(f'<a href="{link}"{attrs}>{icon(symbol)}{esc(attachment["title"])}</a>')
-        if kind in ("image","pdf"):
-            label = "查看原卷" if kind == "image" else "下载 PDF"
+        if kind in ("image","paper","pdf"):
+            label = "查看原卷" if kind in ("image","paper") else "下载 PDF"
             actions.append(f'<a class="button secondary" href="{link}"{attrs}>{icon(symbol)}{label}</a>')
     toc_html = '<nav class="toc" aria-label="本节目录">'+"".join(toc)+"</nav>"
     switches = "".join(f'<a href="#{s["id"]}">{esc(s["title"])}</a>' for s in entry["sections"])
